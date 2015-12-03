@@ -1,0 +1,74 @@
+<!-- FORMS!!! -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Course Application</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	
+</head>
+
+<!-- FORM tag should contain EVERYTHING looking to be submitted -->
+
+<body>
+
+
+	<form>
+		<h3>Your Contact Info</h3>
+		<p>Your Name</p>
+
+			<!-- INPUT opens a text box, entering type says that 'text' is what going to be entered. 'Name' is titling the information. -->
+
+			<input type="text" name="firstname" placeholder="First">
+			<input type="text" name="lastname" placeholder="Last">
+
+		<p>Phone Number</p>
+
+			<!-- 'MaxLength' limits the number of characters in box. 'Size' measures the length of the box- which could be styled with width in css -->
+
+			<input type="text" size="7" maxlength="3" name="phone1"> - <input type="text" size="7" maxlength="3" name="phone2"> - <input type="text" size="10" maxlength="4" name="phone3">
+
+		<p>Address</p>
+			<input type="text" name="street" placeholder="Street Address" size="29"><br>
+			<input type="text" name="line2" placeholder="Address Line 2" size="29"><br>
+			<input type="text" name="city" size="10" placeholder="City"> <input type="text" size="7" placeholder="State" name="state"> <input type="text" size="7" placeholder="Zip Code" name="zip">
+
+		<h3>Skills & Interests</h3>
+		<p>Course</p>
+
+			<!-- 'Select' opens a drop down box. 'Optgroup' categorizes options to select. Disabling a select option makes it so option is unable to be selected -->
+
+			<select name="course">
+				<option selected disabled>Select One</option>
+				<optgroup label="Wed Development">
+				<option>Back-End</option>
+				<option>Front-End</option>
+				<optgroup label="Design">
+				<option>Web Design</option>
+				<option>User Experience</option>
+			</select>
+
+		<p>Past Experience</p>
+			<textarea rows="4" cols="50" name="experience"></textarea>
+
+		<h3>Anything Else?</h3>
+		<p>Referral</p>
+			<select name="referral">
+				<option selected disabled>Select One</option>
+				<option>Yes</option>
+				<option>No</option>
+			</select>
+
+		<p>Comments</p>
+			<textarea rows="4" cols="50" name="comments"></textarea><br>
+
+		<input type="button" form="form" value="Save Draft">
+		<input type="submit" value="Submit">
+
+	</form>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+#container{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+header{
+	background-image: url(../images/header_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100px;
+	margin: 0px auto;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 'Extra-bold';
+	font-size: 24px;
+	color: white;
+	padding-left: 60px;
+	padding-top: 30px;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 24px;
+	font-weight: 'Semi-bold';
+	text-align: center;
+}
+
+.button{
+	display: block;
+	width: 200px;
+	font-family: "Open sans", sans-serif;
+	color: #033048;
+	font-weight: 'Extra-bold';
+	text-align: center;
+	padding: 10px 15px 10px 15px;
+	font-size: 14px;
+	text-decoration: none;
+	background: #f9e42e;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 5px; 
+	/* Firefox 1-3.6 */
+	-moz-border-radius: 5px; 
+	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+	border-radius: 5px;
+	-moz-box-shadow:    3px 3px 5px 1px black;
+ 	-webkit-box-shadow: 3px 3px 5px 1px black;
+  	box-shadow:         3px 3px 5px 1px black;
+}
+
+#benefits{
+	background-color: #f0efef;
+    margin: 0px auto;
+    padding: 10px 340px 20px 50px;
+}
+
+#title{
+	font-size: 20px;
+	font-weight: 'Semi-bold';
+	color: #033048;
+	text-align: left;
+	padding-left: 2px;
+}
+.quote{
+	background-image: url(../images/testimonial_bg.jpg);
+	background-size: cover;
+	margin: 0px;
+}
+
+#testimony{
+	font-family: 'Open sans', sans-serif;
+	text-align: center;
+	color: white;
+	font-weight: 'Light-italic';
+	font-size: 18px;
+	padding: 80px 200px 5px 200px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#customer{
+	color: white;
+	padding: 0px 300px 50px 390px;
+	margin-bottom: 0px;
+}
+
+p{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 'light'
+}
+
+li{
+	padding: 2px 50px 0px 40px;
+}
+
+#signup{
+	background-color: #f9e42e;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 18px;
+}
+.buttonb{
+	text-decoration: none;
+	color: white;
+	font-weight: 'Extra-bold';
+	font-size: 12px;
+	border-radius: 5px;
+	background-color: #033048;
+	padding: 5px 40px;
+}
+
+footer h1{
+	color: #f9e42e;
+	font-weight: 'Extra-bold';
+	font-size: 24px;
+}
+footer{
+	color: #606161;
+	background-color: #121212;
+	padding: 10px 50px;
+	text-align: center;
+}
+
+#facebook{
+	padding-left: 30px;
+}
+
+#copy{
+	color: #606161;
+	padding-bottom: 30px;
+}
